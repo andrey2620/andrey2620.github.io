@@ -1,0 +1,356 @@
+{
+  "es": {
+    "siteTitle": "Portafolio Backend Andrey",
+    "nav": {
+      "profile": "Perfil",
+      "mission": "Dirección",
+      "digital": "Identidad digital",
+      "gallery": "Galería",
+      "tech": "Tecnologías",
+      "contact": "Contacto"
+    },
+    "hero": {
+      "tagline": "Desarrollador Backend",
+      "titleLine1": "Código limpio,",
+      "titleLine2": "resultados eficientes.",
+      "subtitle": "Impulso soluciones backend estables, automatizo procesos críticos y diseño arquitecturas seguras para empresas que necesitan precisión y escalabilidad.",
+      "ctaCv": "Descargar CV",
+      "ctaWhatsapp": "Chatear en WhatsApp",
+      "links": {
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
+        "mail": "Correo"
+      }
+    },
+    "profile": {
+      "eyebrow": "Perfil profesional",
+      "title": "Especialista backend orientado a valor",
+      "body1": "Soy un desarrollador backend con experiencia en Java, Spring Boot y bases de datos relacionales y no relacionales. Me apasiona optimizar procesos, diseñar arquitecturas escalables y aportar soluciones que generen valor real en las organizaciones.",
+      "body2": "Mi objetivo es integrar análisis y eficiencia en cada proyecto, garantizando un desarrollo sólido, seguro y con visión a largo plazo.",
+      "body3": "Me destaco por mi profesionalismo, ética y excelencia, aplicando buenas prácticas de programación y fomentando la colaboración en equipo.",
+      "sloganLabel": "Slogan",
+      "slogan": "Código limpio, resultados eficientes."
+    },
+    "mv": {
+      "eyebrow": "Dirección",
+      "title": "Misión, visión y valores personales",
+      "mission": {
+        "title": "Misión",
+        "body": "Contribuir al crecimiento de la empresa mediante el desarrollo backend eficiente, la automatización de procesos y la implementación de código limpio y escalable, asegurando soluciones confiables que fortalezcan el trabajo en equipo y generen valor real en cada proyecto."
+      },
+      "vision": {
+        "title": "Visión",
+        "body": "Ser un profesional líder en backend y automatización, reconocido por la capacidad de innovar, optimizar y guiar proyectos tecnológicos de alto impacto, aportando al desarrollo de equipos colaborativos y al crecimiento sostenible de la empresa."
+      }
+    },
+    "values": {
+      "title": "Valores",
+      "items": [
+        {
+          "title": "Profesionalismo",
+          "body": "Ejercer mi rol con compromiso, puntualidad y calidad, aportando soluciones sólidas que fortalecen la confianza de la empresa en cada proyecto que lidero o apoyo."
+        },
+        {
+          "title": "Ética",
+          "body": "Actuar con transparencia en la gestión de código, datos y procesos, garantizando que las decisiones técnicas estén alineadas con la integridad y los intereses de la organización."
+        },
+        {
+          "title": "Excelencia",
+          "body": "Superar las expectativas a través de la mejora continua, optimizando cada línea de código y cada proceso para asegurar el mejor rendimiento y escalabilidad de los sistemas de la empresa."
+        }
+      ]
+    },
+    "digital": {
+      "eyebrow": "Identidad",
+      "title": "Enlaces y presencia en espacios digitales",
+      "links": [
+        {
+          "label": "LinkedIn",
+          "action": "Ver perfil profesional"
+        },
+        {
+          "label": "GitHub",
+          "action": "Revisar repositorios"
+        },
+        {
+          "label": "WhatsApp",
+          "action": "+506 8888 7313"
+        }
+      ]
+    },
+    "gallery": {
+      "eyebrow": "Trabajo",
+      "title": "Galería interactiva",
+      "items": [
+        {
+          "name": "Heavy Reps - Landing page",
+          "year": "2024",
+          "tag": "Gimnasio premium",
+          "description": "Landing inmersiva para Heavy Reps con hero a pantalla completa y navegación fija hacia salas, clases, planes, productos y contacto. Integra un carrusel personalizado de salas y equipos, modales para las clases, tabla dinámica de membresías, Google Maps embebido, formulario validado y catálogo de productos por pestañas con animaciones hover y CTA.",
+          "stack": [
+            {
+              "label": "Astro 4.7",
+              "icon": "assets/img/astro.svg"
+            },
+            {
+              "label": "Tailwind CSS",
+              "icon": "assets/img/tailwindcss.svg"
+            },
+            {
+              "label": "Vercel",
+              "icon": "assets/img/vercel.svg"
+            },
+            {
+              "label": "TypeScript",
+              "icon": "assets/img/typescript.svg"
+            }
+          ],
+          "linkLabel": "Abrir landing",
+          "link": "https://heavy-reps.vercel.app/"
+        },
+        {
+          "name": "Landing Page - ISpace (iPhone 14 Pro)",
+          "year": "2024",
+          "tag": "Retail digital",
+          "description": "Landing page desarrollada para la tienda ISpace, enfocada en la promoción del iPhone 14 Pro. Construida con Astro 4 y su ecosistema (@astrojs/tailwind, @astrojs/vercel, @astrojs/sitemap) para ofrecer un SSR veloz, despliegue optimizado en Vercel y una base sólida para SEO técnico. La interfaz fue diseñada con TailwindCSS, incorporando animaciones fluidas y una experiencia visual moderna y responsiva.",
+          "stack": [
+            {
+              "label": "Astro 4",
+              "icon": "assets/img/astro.svg"
+            },
+            {
+              "label": "Tailwind CSS",
+              "icon": "assets/img/tailwindcss.svg"
+            },
+            {
+              "label": "Vercel",
+              "icon": "assets/img/vercel.svg"
+            },
+            {
+              "label": "TypeScript",
+              "icon": "assets/img/typescript.svg"
+            }
+          ],
+          "linkLabel": "Ver landing",
+          "link": "https://i-space-khaki.vercel.app/"
+        }
+      ]
+    },
+    "tech": {
+      "eyebrow": "Tecnologías",
+      "title": "Tecnologías que utilizo",
+      "body": "Selecciono herramientas que se adaptan a los objetivos del negocio y permiten entregar soluciones mantenibles y de alto rendimiento.",
+      "items": [
+        "Java · Spring Boot",
+        "C# · .NET",
+        "Python",
+        "Node.js",
+        "Bases de datos SQL / NoSQL"
+      ]
+    },
+    "contact": {
+      "eyebrow": "Contacto",
+      "title": "¿Listo para fortalecer tu backend?",
+      "body": "Estoy disponible para proyectos backend, automatización de procesos y consultorías enfocadas en arquitectura escalable. Respondo en menos de 48 horas.",
+      "channels": {
+        "phoneLabel": "Teléfono",
+        "mailLabel": "Correo",
+        "locationLabel": "Ubicación",
+        "locationValue": "Costa Rica · Remoto LATAM"
+      },
+      "form": {
+        "name": "Nombre completo",
+        "email": "Correo electrónico",
+        "project": "Tipo de proyecto",
+        "message": "Mensaje",
+        "submit": "Enviar mensaje",
+        "options": {
+          "backend": "Backend escalable",
+          "automation": "Automatización",
+          "consulting": "Consultoría"
+        },
+        "sending": "Enviando mensaje...",
+        "success": "¡Gracias! Tu mensaje fue enviado y responderé muy pronto.",
+        "error": "Hubo un problema. Intenta de nuevo o escríbeme por WhatsApp."
+      }
+    },
+    "footer": {
+      "copy": "© 2025 Andrey Villalobos Gómez. Diseñado con pasión y café."
+    }
+  },
+  "en": {
+    "siteTitle": "Andrey Backend Portfolio",
+    "nav": {
+      "profile": "Profile",
+      "mission": "Direction",
+      "digital": "Digital identity",
+      "gallery": "Gallery",
+      "tech": "Tech stack",
+      "contact": "Contact"
+    },
+    "hero": {
+      "tagline": "Backend Developer",
+      "titleLine1": "Clean code,",
+      "titleLine2": "efficient outcomes.",
+      "subtitle": "I deliver resilient backend solutions, automate critical processes and design secure architectures for companies that demand precision and scalability.",
+      "ctaCv": "Download resume",
+      "ctaWhatsapp": "Chat on WhatsApp",
+      "links": {
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
+        "mail": "Email"
+      }
+    },
+    "profile": {
+      "eyebrow": "Professional profile",
+      "title": "Backend specialist focused on value",
+      "body1": "I'm a backend developer experienced in Java, Spring Boot and relational / non-relational databases. I love optimizing processes, designing scalable architectures and delivering solutions that empower organizations.",
+      "body2": "My goal is to integrate analysis and efficiency into every engagement, ensuring robust, secure development with a long-term vision.",
+      "body3": "I stand out for professionalism, ethics and excellence, applying engineering best practices while fostering strong teamwork.",
+      "sloganLabel": "Slogan",
+      "slogan": "Clean code, efficient outcomes."
+    },
+    "mv": {
+      "eyebrow": "Direction",
+      "title": "Mission, vision and personal values",
+      "mission": {
+        "title": "Mission",
+        "body": "Contribute to company growth through efficient backend development, process automation and clean, scalable code that strengthens teamwork and delivers tangible value on every project."
+      },
+      "vision": {
+        "title": "Vision",
+        "body": "Become a leading professional in backend and automation, known for the ability to innovate, optimize and guide high-impact technology initiatives while enabling collaborative teams and sustainable growth."
+      }
+    },
+    "values": {
+      "title": "Values",
+      "items": [
+        {
+          "title": "Professionalism",
+          "body": "Show up with commitment, punctuality and quality, providing solid solutions that reinforce trust in every project I lead or support."
+        },
+        {
+          "title": "Ethics",
+          "body": "Act with transparency when managing code, data and processes, ensuring technical decisions always align with integrity and organizational goals."
+        },
+        {
+          "title": "Excellence",
+          "body": "Exceed expectations through continuous improvement, optimizing each line of code and process to deliver top performance and scalability."
+        }
+      ]
+    },
+    "digital": {
+      "eyebrow": "Identity",
+      "title": "Links and presence across digital spaces",
+      "links": [
+        {
+          "label": "LinkedIn",
+          "action": "Visit professional profile"
+        },
+        {
+          "label": "GitHub",
+          "action": "Browse repositories"
+        },
+        {
+          "label": "WhatsApp",
+          "action": "+506 8888 7313"
+        }
+      ]
+    },
+    "gallery": {
+      "eyebrow": "Work",
+      "title": "Interactive gallery",
+      "items": [
+        {
+          "name": "Heavy Reps - Landing page",
+          "year": "2024",
+          "tag": "Premium gym",
+          "description": "Immersive landing for Heavy Reps with a full-screen hero and sticky navigation to rooms, classes, plans, products and contact. It ships a custom Rooms & Equipment carousel, modal class cards, dynamic membership table, embedded Google Maps, validated contact form and a tabbed product catalog with hover animations and CTA, all powered by Astro 4.7, Tailwind and its PWA-ready tooling.",
+          "stack": [
+            {
+              "label": "Astro 4.7",
+              "icon": "assets/img/astro.svg"
+            },
+            {
+              "label": "Tailwind CSS",
+              "icon": "assets/img/tailwindcss.svg"
+            },
+            {
+              "label": "Vercel",
+              "icon": "assets/img/vercel.svg"
+            },
+            {
+              "label": "TypeScript",
+              "icon": "assets/img/typescript.svg"
+            }
+          ],
+          "linkLabel": "Open site",
+          "link": "https://heavy-reps.vercel.app/"
+        },
+        {
+          "name": "Landing page - ISpace (iPhone 14 Pro)",
+          "year": "2024",
+          "tag": "Retail",
+          "description": "Marketing landing page for the ISpace store focused on the iPhone 14 Pro launch. Built with Astro 4 and its ecosystem (@astrojs/tailwind, @astrojs/vercel, @astrojs/sitemap) to deliver fast SSR, optimized Vercel deployments and a solid base for technical SEO. TailwindCSS powers a clean, modern and highly responsive UI with fluid animations.",
+          "stack": [
+            {
+              "label": "Astro 4",
+              "icon": "assets/img/astro.svg"
+            },
+            {
+              "label": "Tailwind CSS",
+              "icon": "assets/img/tailwindcss.svg"
+            },
+            {
+              "label": "Vercel",
+              "icon": "assets/img/vercel.svg"
+            }
+          ],
+          "linkLabel": "View landing",
+          "link": "https://i-space-khaki.vercel.app/"
+        }
+      ]
+    },
+    "tech": {
+      "eyebrow": "Technology",
+      "title": "Technologies I work with",
+      "body": "I choose tools that fit business goals and make it possible to ship maintainable, high-performance solutions.",
+      "items": [
+        "Java · Spring Boot",
+        "C# · .NET",
+        "Python",
+        "Node.js",
+        "SQL / NoSQL databases"
+      ]
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Ready to strengthen your backend?",
+      "body": "I'm available for backend projects, automation initiatives and consulting focused on scalable architectures. Replies within 48 hours.",
+      "channels": {
+        "phoneLabel": "Phone",
+        "mailLabel": "Email",
+        "locationLabel": "Location",
+        "locationValue": "Costa Rica · Remote LATAM"
+      },
+      "form": {
+        "name": "Full name",
+        "email": "Email address",
+        "project": "Project type",
+        "message": "Message",
+        "submit": "Send message",
+        "options": {
+          "backend": "Scalable backend",
+          "automation": "Automation",
+          "consulting": "Consulting"
+        },
+        "sending": "Sending your message...",
+        "success": "Thanks! Your message is on its way and I'll reply soon.",
+        "error": "Something went wrong. Please try again or ping me on WhatsApp."
+      }
+    },
+    "footer": {
+      "copy": "© 2025 Andrey Villalobos Gómez. Crafted with passion and coffee."
+    }
+  }
+}

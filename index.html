@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="siteTitle">Portafolio Backend Multilenguaje</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon-development.svg">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <div class="logo">
+        <img src="assets/img/DM-LOGO.svg" alt="DM Logo" class="logo__mark" loading="lazy" />
+        <span>Andrey Villalobos Gómez</span>
+      </div>
+      <ul class="nav__links">
+        <li><a href="#profile" data-i18n="nav.profile">Perfil</a></li>
+        <li><a href="#mission" data-i18n="nav.mission">Dirección</a></li>
+        <li><a href="#digital" data-i18n="nav.digital">Identidad digital</a></li>
+        <li><a href="#gallery" data-i18n="nav.gallery">Galería</a></li>
+        <li><a href="#tech" data-i18n="nav.tech">Tecnologías</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contacto</a></li>
+      </ul>
+      <div class="lang-switch" data-active-lang="es" role="group" aria-label="Cambiar idioma">
+        <button class="lang-btn" type="button" data-lang="es" aria-pressed="true">
+          <span class="flag" aria-hidden="true">
+            <svg viewBox="0 0 24 16" role="img" aria-hidden="true">
+              <rect width="24" height="16" fill="#C60B1E" />
+              <rect y="5" width="24" height="6" fill="#FFC400" />
+            </svg>
+          </span>
+          <span>ES</span>
+        </button>
+        <button class="lang-btn" type="button" data-lang="en" aria-pressed="false">
+          <span class="flag" aria-hidden="true">
+            <svg viewBox="0 0 24 16" role="img" aria-hidden="true">
+              <rect width="24" height="16" fill="#b22234" />
+              <g fill="#fff">
+                <rect y="2" width="24" height="1" />
+                <rect y="4" width="24" height="1" />
+                <rect y="6" width="24" height="1" />
+                <rect y="8" width="24" height="1" />
+                <rect y="10" width="24" height="1" />
+                <rect y="12" width="24" height="1" />
+                <rect y="14" width="24" height="1" />
+              </g>
+              <rect width="10" height="7" fill="#3c3b6e" />
+              <g fill="#fff">
+                <rect width="10" height="0.7" y="1" />
+                <rect width="10" height="0.7" y="3" />
+                <rect width="10" height="0.7" y="5" />
+              </g>
+            </svg>
+          </span>
+          <span>EN</span>
+        </button>
+        <span class="lang-switch__thumb" aria-hidden="true"></span>
+      </div>
+    </nav>
+
+    <div class="hero__grid">
+      <div class="hero__content">
+        <p class="eyebrow" data-i18n="hero.tagline">Desarrollador Backend</p>
+        <h1 class="hero__title">
+          <span data-i18n="hero.titleLine1">Código limpio,</span>
+          <span data-i18n="hero.titleLine2">resultados eficientes.</span>
+        </h1>
+        <p class="hero__description" data-i18n="hero.subtitle">
+          Impulso soluciones backend estables, automatizo procesos críticos y diseño arquitecturas seguras para
+          empresas que necesitan precisión y escalabilidad.
+        </p>
+      <div class="hero__actions">
+        <a
+          class="btn primary"
+          data-cv-btn
+          href="CV_ES_WEB_ANDREY_VILLALOBOS_GOMEZ.pdf"
+          download
+          data-i18n="hero.ctaCv"
+        >
+          Descargar CV
+        </a>
+        <a
+          class="btn secondary"
+          href="https://wa.me/50688887313?text=Hola%20Andrey,%20me%20gustaría%20conocer%20más%20sobre%20tu%20trabajo."
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src="assets/img/whatsapp2.svg" alt="" aria-hidden="true" />
+          <span data-i18n="hero.ctaWhatsapp">Chatear en WhatsApp</span>
+        </a>
+      </div>
+        <div class="hero__links">
+          <a
+            class="hero-link"
+            href="https://www.linkedin.com/in/andrey-villalobos-g%C3%B3mez/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span class="hero-link__icon" aria-hidden="true">
+              <img src="assets/img/linkedin.svg" alt="" aria-hidden="true" />
+            </span>
+            <span class="hero-link__label" data-i18n="hero.links.linkedin">LinkedIn</span>
+          </a>
+          <a class="hero-link" href="https://github.com/andrey2620" target="_blank" rel="noreferrer">
+            <span class="hero-link__icon" aria-hidden="true">
+              <img src="assets/img/github.svg" alt="" aria-hidden="true" />
+            </span>
+            <span class="hero-link__label" data-i18n="hero.links.github">GitHub</span>
+          </a>
+          <a class="hero-link" href="mailto:avg2620@gmail.com">
+            <span class="hero-link__icon" aria-hidden="true">
+              <img src="assets/img/email.svg" alt="" aria-hidden="true" />
+            </span>
+            <span class="hero-link__label" data-i18n="hero.links.mail">Correo</span>
+          </a>
+        </div>
+      </div>
+      <div class="hero__illustration" aria-hidden="true">
+        <span
+          class="hero-lottie"
+          data-lottie="assets/img/json/development1.json"
+          aria-hidden="true"
+        ></span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="profile" class="section profile">
+      <div class="section__header">
+        <p class="eyebrow" data-i18n="profile.eyebrow">Perfil profesional</p>
+        <h2 data-i18n="profile.title">Especialista backend orientado a valor</h2>
+      </div>
+      <div class="profile__body">
+        <p data-i18n="profile.body1">
+          Soy un desarrollador backend con experiencia en Java, Spring Boot y bases de datos relacionales y no
+          relacionales. Me apasiona optimizar procesos, diseñar arquitecturas escalables y aportar soluciones que
+          generen valor real en las organizaciones.
+        </p>
+        <p data-i18n="profile.body2">
+          Mi objetivo es integrar análisis y eficiencia en cada proyecto, garantizando un desarrollo sólido, seguro y con
+          visión a largo plazo.
+        </p>
+        <p data-i18n="profile.body3">
+          Me destaco por mi profesionalismo, ética y excelencia, aplicando buenas prácticas de programación y fomentando
+          la colaboración en equipo.
+        </p>
+        <div class="slogan-card">
+          <span data-i18n="profile.sloganLabel">Slogan</span>
+          <strong data-i18n="profile.slogan">Código limpio, resultados eficientes.</strong>
+        </div>
+      </div>
+    </section>
+
+    <section id="mission" class="section mission">
+      <div class="section__header">
+        <p class="eyebrow" data-i18n="mv.eyebrow">Dirección</p>
+        <h2 data-i18n="mv.title">Misión, visión y valores personales</h2>
+      </div>
+      <div class="mv-grid">
+        <article class="mv-card">
+          <div class="mv-card__icon" aria-hidden="true">
+            <img src="assets/img/objetivo.svg" alt="" loading="lazy" />
+          </div>
+          <h3 data-i18n="mv.mission.title">Misión</h3>
+          <p data-i18n="mv.mission.body">
+            Contribuir al crecimiento de la empresa mediante el desarrollo backend eficiente, la automatización de
+            procesos y la implementación de código limpio y escalable, asegurando soluciones confiables que fortalezcan
+            el trabajo en equipo y generen valor real en cada proyecto.
+          </p>
+        </article>
+        <article class="mv-card">
+          <div class="mv-card__icon" aria-hidden="true">
+            <img src="assets/img/vision.svg" alt="" loading="lazy" />
+          </div>
+          <h3 data-i18n="mv.vision.title">Visión</h3>
+          <p data-i18n="mv.vision.body">
+            Ser un profesional líder en backend y automatización, reconocido por la capacidad de innovar, optimizar y
+            guiar proyectos tecnológicos de alto impacto, aportando al desarrollo de equipos colaborativos y al
+            crecimiento sostenible de la empresa.
+          </p>
+        </article>
+      </div>
+      <div class="values">
+        <h3 data-i18n="values.title">Valores</h3>
+        <div class="values-grid">
+          <article class="value-card">
+            <div class="value-card__icon" aria-hidden="true">
+              <img src="assets/img/profesionalismo.svg" alt="" loading="lazy" />
+            </div>
+            <h4 data-i18n="values.items.0.title">Profesionalismo</h4>
+            <p data-i18n="values.items.0.body">
+              Ejercer mi rol con compromiso, puntualidad y calidad, aportando soluciones sólidas que fortalecen la
+              confianza de la empresa en cada proyecto que lidero o apoyo.
+            </p>
+          </article>
+          <article class="value-card">
+            <div class="value-card__icon" aria-hidden="true">
+              <img src="assets/img/etica.svg" alt="" loading="lazy" />
+            </div>
+            <h4 data-i18n="values.items.1.title">Ética</h4>
+            <p data-i18n="values.items.1.body">
+              Actuar con transparencia en la gestión de código, datos y procesos, garantizando que las decisiones
+              técnicas estén alineadas con la integridad y los intereses de la organización.
+            </p>
+          </article>
+          <article class="value-card">
+            <div class="value-card__icon" aria-hidden="true">
+              <img src="assets/img/excelencia.svg" alt="" loading="lazy" />
+            </div>
+            <h4 data-i18n="values.items.2.title">Excelencia</h4>
+            <p data-i18n="values.items.2.body">
+              Superar las expectativas a través de la mejora continua, optimizando cada línea de código y cada proceso
+              para asegurar el mejor rendimiento y escalabilidad de los sistemas de la empresa.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="digital" class="section digital">
+      <div class="section__header">
+        <p class="eyebrow" data-i18n="digital.eyebrow">Identidad</p>
+        <h2 data-i18n="digital.title">Enlaces y presencia en espacios digitales</h2>
+      </div>
+      <div class="digital__grid">
+        <a
+          class="digital-card"
+          href="https://www.linkedin.com/in/andrey-villalobos-g%C3%B3mez/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div class="digital-card__icon" aria-hidden="true">
+            <img src="assets/img/linkedin.svg" alt="" aria-hidden="true" />
+          </div>
+          <div>
+            <p class="digital-card__label" data-i18n="digital.links.0.label">LinkedIn</p>
+            <span class="digital-card__action" data-i18n="digital.links.0.action">Ver perfil profesional</span>
+          </div>
+        </a>
+        <a class="digital-card" href="https://github.com/andrey2620" target="_blank" rel="noreferrer">
+          <div class="digital-card__icon" aria-hidden="true">
+            <img src="assets/img/github.svg" alt="" aria-hidden="true" />
+          </div>
+          <div>
+            <p class="digital-card__label" data-i18n="digital.links.1.label">GitHub</p>
+            <span class="digital-card__action" data-i18n="digital.links.1.action">Revisar repositorios</span>
+          </div>
+        </a>
+        <a
+          class="digital-card"
+          href="https://wa.me/50688887313?text=Hola%20Andrey,%20me%20gustaría%20conversar%20sobre%20un%20proyecto."
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div class="digital-card__icon" aria-hidden="true">
+            <img src="assets/img/whatsapp2.svg" alt="" aria-hidden="true" />
+          </div>
+          <div>
+            <p class="digital-card__label" data-i18n="digital.links.2.label">WhatsApp</p>
+            <span class="digital-card__action" data-i18n="digital.links.2.action">+506 8888 7313</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery">
+      <div class="section__header">
+        <p class="eyebrow" data-i18n="gallery.eyebrow">Trabajo</p>
+        <h2 data-i18n="gallery.title">Galería interactiva</h2>
+      </div>
+      <div class="gallery__content">
+        <div class="gallery__list">
+          <button class="gallery__item active" type="button" data-gallery-trigger="0">
+            <span data-i18n="gallery.items.0.name">Heavy Reps - Landing page</span>
+            <small data-i18n="gallery.items.0.year">2024</small>
+          </button>
+          <button class="gallery__item" type="button" data-gallery-trigger="1">
+            <span data-i18n="gallery.items.1.name">Landing Page - ISpace (iPhone 14 Pro)</span>
+            <small data-i18n="gallery.items.1.year">2024</small>
+          </button>
+        </div>
+        <div class="gallery__preview">
+          <p class="gallery__tag" data-gallery-tag></p>
+          <h3 class="gallery__title" data-gallery-title></h3>
+          <p class="gallery__description" data-gallery-description></p>
+          <div class="gallery__stack" data-gallery-stack role="list"></div>
+          <a class="gallery__link" href="#" target="_blank" rel="noreferrer" data-gallery-link>Ver proyecto</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="tech" class="section tech">
+      <div class="section__header">
+        <p class="eyebrow" data-i18n="tech.eyebrow">Tecnologías</p>
+        <h2 data-i18n="tech.title">Tecnologías que utilizo</h2>
+      </div>
+      <p class="section__text" data-i18n="tech.body">
+        Selecciono herramientas que se adaptan a los objetivos del negocio y permiten entregar soluciones mantenibles y
+        de alto rendimiento.
+      </p>
+      <div class="tech-marquee" aria-label="Tecnologías destacadas">
+        <div class="tech-track">
+          <article class="tech-pill">
+            <img src="assets/img/java.svg" alt="Java y Spring Boot" />
+            <span data-i18n="tech.items.0">Java · Spring Boot</span>
+          </article>
+          <article class="tech-pill">
+            <img src="assets/img/dotnet.svg" alt="C# y .NET" />
+            <span data-i18n="tech.items.1">C# · .NET</span>
+          </article>
+          <article class="tech-pill">
+            <img src="assets/img/python.svg" alt="Python" />
+            <span data-i18n="tech.items.2">Python</span>
+          </article>
+          <article class="tech-pill">
+            <img src="assets/img/node-js.svg" alt="Node.js" />
+            <span data-i18n="tech.items.3">Node.js</span>
+          </article>
+          <article class="tech-pill">
+            <img src="assets/img/mysql.svg" alt="Bases de datos SQL y NoSQL" />
+            <span data-i18n="tech.items.4">Bases de datos SQL / NoSQL</span>
+          </article>
+          <article class="tech-pill" aria-hidden="true">
+            <img src="assets/img/java.svg" alt="" aria-hidden="true" />
+            <span data-i18n="tech.items.0">Java · Spring Boot</span>
+          </article>
+          <article class="tech-pill" aria-hidden="true">
+            <img src="assets/img/dotnet.svg" alt="" aria-hidden="true" />
+            <span data-i18n="tech.items.1">C# · .NET</span>
+          </article>
+          <article class="tech-pill" aria-hidden="true">
+            <img src="assets/img/python.svg" alt="" aria-hidden="true" />
+            <span data-i18n="tech.items.2">Python</span>
+          </article>
+          <article class="tech-pill" aria-hidden="true">
+            <img src="assets/img/node-js.svg" alt="" aria-hidden="true" />
+            <span data-i18n="tech.items.3">Node.js</span>
+          </article>
+          <article class="tech-pill" aria-hidden="true">
+            <img src="assets/img/mysql.svg" alt="" aria-hidden="true" />
+            <span data-i18n="tech.items.4">Bases de datos SQL / NoSQL</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section__header">
+        <p class="eyebrow" data-i18n="contact.eyebrow">Contacto</p>
+        <h2 data-i18n="contact.title">¿Listo para fortalecer tu backend?</h2>
+      </div>
+      <div class="contact__grid">
+        <div class="contact__info">
+          <p class="section__text" data-i18n="contact.body">
+            Estoy disponible para proyectos backend, automatización de procesos y consultorías enfocadas en arquitectura
+            escalable. Respondo en menos de 48 horas.
+          </p>
+          <ul class="contact__channels">
+            <li>
+              <span data-i18n="contact.channels.phoneLabel">Teléfono</span>
+              <a href="tel:+50688887313">+506 8888 7313</a>
+            </li>
+            <li>
+              <span data-i18n="contact.channels.mailLabel">Correo</span>
+              <a href="mailto:avg2620@gmail.com">avg2620@gmail.com</a>
+            </li>
+            <li class="contact__location">
+              <span data-i18n="contact.channels.locationLabel">Ubicación</span>
+              <div class="location-badge">
+                <span class="location-badge__flag" aria-hidden="true">
+                  <svg viewBox="0 0 24 16" role="img" aria-hidden="true">
+                    <rect width="24" height="16" fill="#002b7f" />
+                    <rect y="3" width="24" height="2" fill="#ffffff" />
+                    <rect y="5" width="24" height="6" fill="#ce1126" />
+                    <rect y="11" width="24" height="2" fill="#ffffff" />
+                    <rect y="13" width="24" height="3" fill="#002b7f" />
+                  </svg>
+                </span>
+                <p data-i18n="contact.channels.locationValue">Costa Rica · Remoto LATAM</p>
+                <span class="location-badge__heart" aria-hidden="true">&hearts;</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <form id="contact-form" class="contact-form">
+          <input type="hidden" name="_subject" value="Contacto desde el portafolio" />
+          <input type="hidden" name="_captcha" value="false" />
+          <label class="form-field">
+            <span data-i18n="contact.form.name">Nombre completo</span>
+            <input type="text" name="name" required placeholder="Andrey Villalobos" />
+          </label>
+          <label class="form-field">
+            <span data-i18n="contact.form.email">Correo electrónico</span>
+            <input type="email" name="email" required placeholder="tu@email.com" />
+          </label>
+          <label class="form-field">
+            <span data-i18n="contact.form.project">Tipo de proyecto</span>
+            <select name="project" required>
+              <option value="backend" data-i18n="contact.form.options.backend">Backend escalable</option>
+              <option value="automation" data-i18n="contact.form.options.automation">Automatización</option>
+              <option value="consulting" data-i18n="contact.form.options.consulting">Consultoría</option>
+            </select>
+          </label>
+          <label class="form-field">
+            <span data-i18n="contact.form.message">Mensaje</span>
+            <textarea name="message" rows="4"  required placeholder="Cuéntame sobre tu reto..."></textarea>
+          </label>
+          <button type="submit" class="btn primary" data-i18n="contact.form.submit">Enviar mensaje</button>
+          <p class="contact-form__status" data-contact-status></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__content">
+      <span class="footer__flag" aria-hidden="true">
+        <svg viewBox="0 0 24 16" role="img" aria-hidden="true">
+          <rect width="24" height="16" fill="#002b7f" />
+          <rect y="3" width="24" height="2" fill="#ffffff" />
+          <rect y="5" width="24" height="6" fill="#ce1126" />
+          <rect y="11" width="24" height="2" fill="#ffffff" />
+          <rect y="13" width="24" height="3" fill="#002b7f" />
+        </svg>
+      </span>
+      <p data-i18n="footer.copy">© 2025 Andrey Villalobos Gómez. Diseñado con pasión y café.</p>
+      <span class="footer__heart" aria-hidden="true">&hearts;</span>
+    </div>
+  </footer>
+
+  <button class="scroll-top" type="button" aria-label="Volver al inicio" data-scroll-top>
+    ↑
+  </button>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js" defer></script>
+  <script src="index.js" defer></script>
+</body>
+</html>
