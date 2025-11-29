@@ -19,6 +19,7 @@
   --shadow: 0 20px 40px rgba(15, 40, 56, 0.55);
   --radius: 1.25rem;
   --transition: 0.3s ease;
+  --paragraph-size: 1.15rem;
 }
 
 *,
@@ -38,6 +39,10 @@ body {
   color: var(--text);
   min-height: 100vh;
   line-height: 1.6;
+}
+
+p {
+  font-size: var(--paragraph-size);
 }
 
 a {
@@ -79,7 +84,7 @@ main {
 
 .section__text {
   color: var(--muted);
-  font-size: 1rem;
+  font-size: var(--paragraph-size);
   margin-bottom: 2rem;
 }
 
@@ -231,7 +236,7 @@ main {
 
 .hero__description {
   color: var(--muted);
-  font-size: 1.05rem;
+  font-size: var(--paragraph-size);
   margin-bottom: 2rem;
 }
 

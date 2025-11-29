@@ -66,7 +66,7 @@
       "links": [
         {
           "label": "LinkedIn",
-          "action": "Ver perfil profesional"
+          "action": "Abrir perfil profesional"
         },
         {
           "label": "GitHub",
@@ -105,7 +105,7 @@
               "icon": "assets/img/typescript.svg"
             }
           ],
-          "linkLabel": "Abrir landing",
+          "linkLabel": "Abrir proyecto",
           "link": "https://heavy-reps.vercel.app/"
         },
         {
@@ -131,7 +131,7 @@
               "icon": "assets/img/typescript.svg"
             }
           ],
-          "linkLabel": "Ver landing",
+          "linkLabel": "Abrir proyecto",
           "link": "https://i-space-khaki.vercel.app/"
         }
       ]
