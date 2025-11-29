@@ -91,7 +91,7 @@ main {
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   color: var(--muted);
   margin-bottom: 1rem;
 }
@@ -105,6 +105,7 @@ main {
   justify-content: space-between;
   gap: 1.5rem;
   margin-bottom: 4rem;
+  font-size: 1.15rem;
 }
 
 .logo {
@@ -530,8 +531,8 @@ main {
 .gallery__tag {
   text-transform: uppercase;
   letter-spacing: 0.25em;
-  font-size: 0.7rem;
-  color: var(--bg);
+  font-size: 0.85rem;
+  color: var(--text);
 }
 
 .gallery__title {

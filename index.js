@@ -1,8 +1,3 @@
-/**
- * Portfolio V2 - Main Script
- * Refactored for better organization and maintainability.
- */
-
 (function () {
   'use strict';
 
