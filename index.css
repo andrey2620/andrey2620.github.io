@@ -825,6 +825,13 @@ main {
   box-shadow: 0 0 0 3px rgba(0, 184, 148, 0.2);
 }
 
+.form-field input:hover,
+.form-field select:hover,
+.form-field textarea:hover {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(0, 184, 148, 0.15);
+}
+
 .contact-form__status {
   min-height: 1.25rem;
   font-size: 0.9rem;
