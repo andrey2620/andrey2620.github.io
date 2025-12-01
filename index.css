@@ -82,6 +82,10 @@ main {
   margin-bottom: 1.5rem;
 }
 
+.section__header > .eyebrow {
+  margin-top: 0.4rem;
+}
+
 .section__text {
   color: var(--muted);
   font-size: var(--paragraph-size);
@@ -135,6 +139,22 @@ main {
 .nav__links a {
   color: var(--muted);
   transition: color var(--transition);
+}
+
+.nav__links .nav__cta {
+  background: var(--accent);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--accent);
+  font-weight: 600;
+  transition: transform var(--transition), background var(--transition), color var(--transition);
+}
+
+.nav__links .nav__cta:hover {
+  background: var(--bg);
+  color: var(--accent);
+  transform: translateY(-2px);
 }
 
 .nav__links a:hover {
@@ -226,7 +246,7 @@ main {
 
 .hero__title {
   font-size: clamp(2.6rem, 5vw, 4rem);
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.75rem;
 }
 
 .hero__title span {
@@ -402,10 +422,11 @@ main {
   flex-direction: column;
   gap: 0.75rem;
   min-height: 210px;
-  transition: transform var(--transition);
+  transition: border-color var(--transition), transform var(--transition);
 }
 
 .mv-card:hover {
+  border-color: var(--accent);
   transform: translateY(-6px);
 }
 
