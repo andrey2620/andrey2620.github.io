@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Cloud infrastructure</title>
+  <defs>
+    <linearGradient id="cloud-infra-gradient" x1="10" x2="54" y1="14" y2="54" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#cloud-infra-gradient)" d="M24.4 47.5h24.3a12.3 12.3 0 0 0 1.2-24.5 18.4 18.4 0 0 0-35.2 5.4A9.8 9.8 0 0 0 24.4 47.5Z"/>
+  <path fill="#0f172a" d="M18 29.5h28a4 4 0 0 1 4 4v16a4 4 0 0 1-4 4H18a4 4 0 0 1-4-4v-16a4 4 0 0 1 4-4Z"/>
+  <path fill="#38bdf8" d="m25.7 45.2-6-5.2 6-5.2 2.3 2.6-3 2.6 3 2.6-2.3 2.6Zm12.6 0-2.3-2.6 3-2.6-3-2.6 2.3-2.6 6 5.2-6 5.2Zm-7.1 1.4-3.2-1 4.8-12.2 3.2 1-4.8 12.2Z"/>
+</svg>

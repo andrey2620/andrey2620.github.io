@@ -3,10 +3,10 @@
 
   // --- Configuration ---
   const CONFIG = {
-    defaultLang: 'es',
+    defaultLang: 'en',
     cvFiles: {
       es: '/assets/docs/CV_ES_WEB_ANDREY_VILLALOBOS_GOMEZ.pdf',
-      en: '/assets/docs/CV_EN_WEB_ANDREY_VILLALOBOS_GOMEZ.pdf',
+      en: '/assets/docs/CV_AndreyVillalobosGómez_ENG.pdf',
     },
     api: {
       contact: 'https://formsubmit.co/ajax/avg2620@gmail.com',

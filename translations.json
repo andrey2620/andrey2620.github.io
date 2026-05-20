@@ -1,6 +1,6 @@
 {
   "es": {
-    "siteTitle": "Portafolio Backend Andrey",
+    "siteTitle": "Portafolio Ingeniero de Software Andrey",
     "nav": {
       "profile": "Perfil",
       "mission": "Dirección",
@@ -10,10 +10,10 @@
       "contact": "Cotiza conmigo"
     },
     "hero": {
-      "tagline": "Desarrollador Backend",
+      "tagline": "Ingeniero de software",
       "titleLine1": "Código limpio,",
-      "titleLine2": "resultados eficientes.",
-      "subtitle": "Impulso soluciones backend estables, automatizo procesos críticos y diseño arquitecturas seguras para empresas que necesitan precisión y escalabilidad.",
+      "titleLine2": "soluciones completas.",
+      "subtitle": "Desarrollo aplicaciones web modernas, APIs REST y soluciones seguras combinando Java, .NET, Angular, bases de datos, automatización e infraestructura cloud.",
       "ctaCv": "Descargar CV",
       "ctaWhatsapp": "Chatear en WhatsApp",
       "links": {
@@ -24,10 +24,10 @@
     },
     "profile": {
       "eyebrow": "Perfil profesional",
-      "title": "Especialista backend orientado a valor",
-      "body1": "Soy un desarrollador backend con experiencia en Java, Spring Boot y bases de datos relacionales y no relacionales. Me apasiona optimizar procesos, diseñar arquitecturas escalables y aportar soluciones que generen valor real en las organizaciones.",
-      "body2": "Mi objetivo es integrar análisis y eficiencia en cada proyecto, garantizando un desarrollo sólido, seguro y con visión a largo plazo.",
-      "body3": "Me destaco por mi profesionalismo, ética y excelencia, aplicando buenas prácticas de programación y fomentando la colaboración en equipo.",
+      "title": "Ingeniero de software enfocado en soluciones seguras y mantenibles",
+      "body1": "Soy estudiante de Ingeniería del Software con experiencia práctica en Java, Spring Boot, .NET, Angular, APIs REST y bases de datos SQL/NoSQL. Me interesa construir aplicaciones modernas que integren frontend, backend e infraestructura de forma clara y escalable.",
+      "body2": "Tengo interés en ciberseguridad e Identity & Access Management, con conocimiento práctico de OAuth 2.0, JWT, RBAC, Active Directory, Azure Entra ID, PowerShell y conceptos de ciclo de vida de identidades.",
+      "body3": "Me apasiona la automatización, la optimización de procesos, Docker, entornos Linux y el desarrollo asistido por IA, aplicando OOP, SOLID y Clean Code en equipos colaborativos.",
       "sloganLabel": "Slogan",
       "slogan": "Código limpio, resultados eficientes."
     },
@@ -36,11 +36,11 @@
       "title": "Misión, visión y valores personales",
       "mission": {
         "title": "Misión",
-        "body": "Contribuir al crecimiento de la empresa mediante el desarrollo backend eficiente, la automatización de procesos y la implementación de código limpio y escalable, asegurando soluciones confiables que fortalezcan el trabajo en equipo y generen valor real en cada proyecto."
+        "body": "Contribuir al crecimiento de la empresa mediante soluciones de software completas, automatización de procesos, APIs confiables, interfaces modernas y código limpio que fortalezca el trabajo en equipo y genere valor real en cada proyecto."
       },
       "vision": {
         "title": "Visión",
-        "body": "Ser un profesional líder en backend y automatización, reconocido por la capacidad de innovar, optimizar y guiar proyectos tecnológicos de alto impacto, aportando al desarrollo de equipos colaborativos y al crecimiento sostenible de la empresa."
+        "body": "Ser un ingeniero de software capaz de innovar, optimizar y guiar iniciativas tecnológicas de alto impacto, integrando desarrollo web, seguridad, cloud e inteligencia artificial aplicada para apoyar equipos colaborativos y crecimiento sostenible."
       }
     },
     "values": {
@@ -139,19 +139,20 @@
     "tech": {
       "eyebrow": "Tecnologías",
       "title": "Tecnologías que utilizo",
-      "body": "Selecciono herramientas que se adaptan a los objetivos del negocio y permiten entregar soluciones mantenibles y de alto rendimiento.",
+      "body": "Selecciono herramientas para conectar frontend, backend, automatización, seguridad e infraestructura en soluciones mantenibles y de alto rendimiento.",
       "items": [
         "Java · Spring Boot",
         "C# · .NET",
-        "Python",
-        "Node.js",
-        "Bases de datos SQL / NoSQL"
+        "Angular · TypeScript",
+        "Node.js · REST APIs",
+        "Bases de datos SQL / NoSQL",
+        "Docker · Linux · Azure"
       ]
     },
     "contact": {
       "eyebrow": "Contacto",
-      "title": "¿Listo para fortalecer tu backend?",
-      "body": "Estoy disponible para proyectos backend, automatización de procesos y consultorías enfocadas en arquitectura escalable. Respondo en menos de 48 horas.",
+      "title": "¿Listo para construir una solución de software?",
+      "body": "Estoy disponible para proyectos web, APIs REST, automatización, integración de bases de datos y soluciones con enfoque en seguridad, mantenibilidad y escalabilidad. Respondo en menos de 48 horas.",
       "channels": {
         "phoneLabel": "Teléfono",
         "mailLabel": "Correo",
@@ -165,7 +166,7 @@
         "message": "Mensaje",
         "submit": "Enviar mensaje",
         "options": {
-          "backend": "Backend escalable",
+          "backend": "Aplicación web / API",
           "automation": "Automatización",
           "consulting": "Consultoría"
         },
@@ -179,7 +180,7 @@
     }
   },
   "en": {
-    "siteTitle": "Andrey Backend Portfolio",
+    "siteTitle": "Andrey Software Engineer Portfolio",
     "nav": {
       "profile": "Profile",
       "mission": "Direction",
@@ -189,10 +190,10 @@
       "contact": "Request a quote"
     },
     "hero": {
-      "tagline": "Backend Developer",
+      "tagline": "Software Engineer",
       "titleLine1": "Clean code,",
-      "titleLine2": "efficient outcomes.",
-      "subtitle": "I deliver resilient backend solutions, automate critical processes and design secure architectures for companies that demand precision and scalability.",
+      "titleLine2": "complete solutions.",
+      "subtitle": "I build modern web applications, REST APIs and secure software solutions across Java, .NET, Angular, databases, automation and cloud infrastructure.",
       "ctaCv": "Download resume",
       "ctaWhatsapp": "Chat on WhatsApp",
       "links": {
@@ -203,10 +204,10 @@
     },
     "profile": {
       "eyebrow": "Professional profile",
-      "title": "Backend specialist focused on value",
-      "body1": "I'm a backend developer experienced in Java, Spring Boot and relational / non-relational databases. I love optimizing processes, designing scalable architectures and delivering solutions that empower organizations.",
-      "body2": "My goal is to integrate analysis and efficiency into every engagement, ensuring robust, secure development with a long-term vision.",
-      "body3": "I stand out for professionalism, ethics and excellence, applying engineering best practices while fostering strong teamwork.",
+      "title": "Software engineer focused on secure, maintainable solutions",
+      "body1": "I'm a Software Engineering student with hands-on experience in Java, Spring Boot, .NET, Angular, REST APIs and SQL/NoSQL databases. I enjoy building modern applications that connect frontend, backend and infrastructure with clear, scalable design.",
+      "body2": "I'm interested in cybersecurity and Identity & Access Management, with practical knowledge of OAuth 2.0, JWT, RBAC, Active Directory, Azure Entra ID, PowerShell and identity lifecycle concepts.",
+      "body3": "I'm passionate about automation, process optimization, Docker, Linux environments and AI-assisted development, applying OOP, SOLID and Clean Code in collaborative teams.",
       "sloganLabel": "Slogan",
       "slogan": "Clean code, efficient outcomes."
     },
@@ -215,11 +216,11 @@
       "title": "Mission, vision and personal values",
       "mission": {
         "title": "Mission",
-        "body": "Contribute to company growth through efficient backend development, process automation and clean, scalable code that strengthens teamwork and delivers tangible value on every project."
+        "body": "Contribute to company growth through complete software solutions, process automation, reliable APIs, modern interfaces and clean code that strengthens teamwork and delivers tangible value on every project."
       },
       "vision": {
         "title": "Vision",
-        "body": "Become a leading professional in backend and automation, known for the ability to innovate, optimize and guide high-impact technology initiatives while enabling collaborative teams and sustainable growth."
+        "body": "Become a software engineer capable of innovating, optimizing and guiding high-impact technology initiatives by combining web development, security, cloud and applied AI to support collaborative teams and sustainable growth."
       }
     },
     "values": {
@@ -314,19 +315,20 @@
     "tech": {
       "eyebrow": "Technology",
       "title": "Technologies I work with",
-      "body": "I choose tools that fit business goals and make it possible to ship maintainable, high-performance solutions.",
+      "body": "I choose tools that connect frontend, backend, automation, security and infrastructure into maintainable, high-performance solutions.",
       "items": [
         "Java · Spring Boot",
         "C# · .NET",
-        "Python",
-        "Node.js",
-        "SQL / NoSQL databases"
+        "Angular · TypeScript",
+        "Node.js · REST APIs",
+        "SQL / NoSQL databases",
+        "Docker · Linux · Azure"
       ]
     },
     "contact": {
       "eyebrow": "Contact",
-      "title": "Ready to strengthen your backend?",
-      "body": "I'm available for backend projects, automation initiatives and consulting focused on scalable architectures. Replies within 48 hours.",
+      "title": "Ready to build a software solution?",
+      "body": "I'm available for web applications, REST APIs, automation, database integrations and solutions focused on security, maintainability and scalability. Replies within 48 hours.",
       "channels": {
         "phoneLabel": "Phone",
         "mailLabel": "Email",
@@ -340,7 +342,7 @@
         "message": "Message",
         "submit": "Send message",
         "options": {
-          "backend": "Scalable backend",
+          "backend": "Web app / API",
           "automation": "Automation",
           "consulting": "Consulting"
         },
